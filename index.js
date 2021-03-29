@@ -17,7 +17,10 @@ Do the following:
 
    HINT: no function required
 */
+var votingAge=
+  votingAge >= 18
 
+  console.log('true');
 
 
 /*
@@ -32,8 +35,14 @@ Do the following:
 */
 
 
+var winter = 'wet';
+var locale = 'Olympia';
+
+if (locale='Los Angeles');
+let winter = 'dry';
 
 
+console.log('dry');
 
 /*
 Task 1c - Convert Strings to Numbers
@@ -46,7 +55,8 @@ Do the following:
    HINT: look up the Number method
 */
 
-
+var string1= "1999";
+var string1 = Number("1999");
 
 
 /*
@@ -58,11 +68,11 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a,b){
+    a*b= product;
   }
 
-
+return product;
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -73,9 +83,10 @@ Do the following:
    2. Use the received value to calculate the age in dog years (1 human year is equal to 7 dog years)
    3. Return the newly calculated age
 */
+let age=x;
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(x,y=7){
+    return x*7
 }
 
 
@@ -106,11 +117,23 @@ Use the hungryDog function and feeding requirements below to do the following:
     
   NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
 */  
-
-function hungryDog(/*add your code here*/){
-    /*add your code here*/
-  }
-
+let weight = x;
+let age = y;
+let foodWeight=z
+function hungryDog(weight, age, foodWeight){
+  return y <.334 ? z=(x/10)
+  :.335 < y< .583 ? z=(x/20)
+  :.584< y < 1 ? (z=x/25)
+  :
+}
+if (y > 1){
+function hungryDog(weight, foodWeight){
+    return x <5 ? z=(x/20)
+    :6< x <10 ? z=(x/25)
+    : 11< x <15 ? z=(x/33)
+    :x >15 ? z=(x/50);
+  
+}
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
