@@ -17,7 +17,10 @@ Do the following:
 
    HINT: no function required
 */
+var votingAge=19
+  votingAge >= 18
 
+  console.log('true');
 
 
 /*
@@ -32,8 +35,14 @@ Do the following:
 */
 
 
+var winter = 'wet';
+var locale = 'Olympia';
 
+if (locale='Los Angeles'){
+let winter = 'dry';
+}
 
+console.log('dry');
 
 /*
 Task 1c - Convert Strings to Numbers
@@ -46,7 +55,8 @@ Do the following:
    HINT: look up the Number method
 */
 
-
+var string1= "1999";
+var string1 = Number("1999");
 
 
 /*
@@ -57,9 +67,12 @@ Do the following:
    2. Receive the parameters: a and b
    3. Multiply a and b and return the answer
 */
+let a = 5;
+let b = 4;
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a,b){
+    a*b== product;
+    return product;
   }
 
 
@@ -73,9 +86,10 @@ Do the following:
    2. Use the received value to calculate the age in dog years (1 human year is equal to 7 dog years)
    3. Return the newly calculated age
 */
+var age=1;
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(y,x=7){
+    return x*1;
 }
 
 
@@ -107,10 +121,22 @@ Use the hungryDog function and feeding requirements below to do the following:
   NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
 */  
 
-function hungryDog(/*add your code here*/){
-    /*add your code here*/
-  }
-
+let weight = ;
+let foodWeight=z;
+function hungryDog(weight, age, foodWeight){
+  return weight <.334 ? foodWeight=(weight/10)
+  :.335 < weight< .583 ? foodWeight=(weight/20)
+  :.584< weight < 1 ? (foodWeight=weight/25):
+  
+}
+if (age > 1){
+function hungryDog(weight, foodWeight){
+    return weight <5 ? foodWeight=(weight/20)
+    :6<  weight <10 ? foodWeight=(weight/25)
+    : 11< weight <15 ? foodWeight=(weight/33)
+    :weight >15 ? foodWeight=(weight/50):
+  
+}
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -133,9 +159,16 @@ Use the game function below to do the following:
   
   HINT: Remember that the order in which we pass in our arguments matters when it comes to parameters
 */
+let user = math.random(0,10);
+let computer = math.random(0,10);
 
 function game(user, computer){
-    /*add your code here*/
+  if (user < computer)
+  return = 'you lose!';
+  if (user > computer)
+  return = 'you win!';
+  if (user > computer)
+  return "it's a tie";
 }
   
   
@@ -150,9 +183,11 @@ Using the miles function below do the following:
   2. Convert the number of kiolmeters received to miles
   3. Return the number of miles
 */
-
-function miles(/*add your code here*/){
-    /*add your code here*/
+let kilometers = x;
+let milesTraveled= y;
+function miles(kilometers, milesTraveled){
+    (milesTraveled*1.609)=kilometers;
+    return kilometers;
   }
 
 
@@ -164,13 +199,12 @@ Using the feet function below do the following:
   2. Convert the number of cm to feet
   3. Return number of feet
 */
-
-function feet(/*add your code here*/){
-    /*add your code here*/
+let centimeters = x
+function feet(centimeters){
+centimeters/30.48= feet;
+return feet;
   }
  
-
-
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
 // Let's Sing 99 Bottles of Soda on the Wall!
@@ -180,11 +214,16 @@ Using the annoyingSong function below do the following:
   2. At each invocation, it should RETURN this string (note: the tests are expecting the same string as below):
       "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
 */
+var bottles= 99
+while (bottles > 0) {
+  if (bottles > 0) {
+      console.log(bottles + " bottles of soda on the wall, " + bottles + " bottles of soda,");
+      bottles--;
+      console.log(" take one down, pass it around, " + bottles + " bottles of soda on the wall.");  
+  };
 
-function annoyingSong(/*add your code here*/){
-        /*add your code here*/
-  }
-
+  if (bottles === 0) {
+      console.log(bottles + " bottles of soda on the wall, " + bottles + " bottles of soda. Go to the store, buy some more, 99 bottles of soda on the wall.");
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -201,8 +240,22 @@ Using the grade function below do the following:
    below should return 'you got an F'
 */
   
-function grade(/*Your Code here */){
-  /*Your Code here */
+function grade(percentage){
+  if (percentage >= 90){
+    console.log('you got an A');
+    else if (percentage >= 80){
+    console.log('you got a B')
+  }
+    else if (percentage>= 70){
+      console.log('you got a C')
+    }
+    else if (percentage >=60){
+      console.log('you got a D')
+    }
+    else if (percentage < 60)
+      console.log('you got an F');
+    }
+    
   }
   
   
